@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Class-based dark mode: add .dark to <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-accent:    #fec500;
+  --color-accent-dk: #f26801;
+  --color-teal:      #179f9e;
+  --color-teal-dk:   #0b6c71;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
