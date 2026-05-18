@@ -19,12 +19,16 @@ export default function App() {
 
   return (
     <Layout>
-      <Navbar lang={lang} setLang={setLang} dark={dark} setDark={setDark} />
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
+        <Navbar lang={lang} setLang={setLang} dark={dark} setDark={setDark} />
+      </div>
       <Hero lang={lang} />
-      <About lang={lang} />
-      <Features />
-      <Contact />
-      <Footer />
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
+        <About lang={lang} />
+        <Features />
+        <Contact />
+        <Footer />
+      </div>
     </Layout>
   );
 }

@@ -28,7 +28,7 @@ export default function Navbar({ lang, setLang, dark, setDark }: NavbarProps) {
       <div className="flex items-center justify-between py-4">
 
         {/* Logo */}
-        <span className="font-semibold text-gray-900 dark:text-white text-lg">VisaRun</span>
+        <span className="font-semibold text-gray-900 dark:text-white text-lg">Transfer Service</span>
 
         {/* Desktop links */}
         <div className="hidden md:flex gap-6 text-sm">
