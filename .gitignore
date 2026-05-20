@@ -1,0 +1,17 @@
+old/
+prompt.docx
+first session.txt
+
+.dotnet/
+.nuget/
+.templateengine/
+
+bin/
+obj/
+**/bin/
+**/obj/
+
+data/
+*.user
+*.suo
+*.bak
